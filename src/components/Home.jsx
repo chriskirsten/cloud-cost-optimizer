@@ -18,6 +18,9 @@ const Home = () => {
     navigate('/login');
   };
 
+
+  
+  /*
   if (!isAuthenticated && location.pathname !== '/login') {
     return <Login />;
   }
@@ -25,6 +28,9 @@ const Home = () => {
   if (location.pathname === '/login') {
     return <Login />;
   }
+*/
+
+
 
   const navItems = [
     { path: '/dashboard', icon: HomeIcon, label: 'Dashboard' },
